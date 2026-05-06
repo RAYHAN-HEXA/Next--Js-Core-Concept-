@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Navbar></Navbar>
-        {children}          //dynamic part . eta te sob kicu rendaring hoy //
+        {children}         {/*dynamic part . eta te sob kicu rendaring hoy // */}
         <Footer></Footer>
         </body>
     </html>
