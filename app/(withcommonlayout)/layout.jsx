@@ -1,11 +1,11 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import Navbar from '../components/shared/Navbar';
+import Footer from '../components/Footer';
 
 const layout = ({children}) => {
     return (
         <div>
-        <Navbar></Navbar>
+            <Navbar></Navbar>
            {children} 
            <Footer></Footer>
         </div>

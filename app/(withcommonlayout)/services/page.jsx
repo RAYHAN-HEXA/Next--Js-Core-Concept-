@@ -1,7 +1,7 @@
 const ServicesPage = () => {
   return (
     <div>
-      <h1>this is service page</h1>
+      <h1 className="text-5xl" >this is service page</h1>
     </div>
   );
 };
